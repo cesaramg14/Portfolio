@@ -63,7 +63,7 @@ export default function Hero() {
             className="flex flex-col sm:flex-row gap-4"
           >
             <a
-              href="/CesarMaldonadoCV - WebDeveloper.pdf"
+              href="./Portfolio/CesarMaldonadoCV - WebDeveloper.pdf"
               download
               className="inline-flex items-center justify-center px-6 py-3 bg-accent hover:bg-accent/80 text-white rounded-lg font-medium transition-colors gap-2"
             >
