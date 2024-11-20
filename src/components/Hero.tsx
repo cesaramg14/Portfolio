@@ -15,7 +15,7 @@ export default function Hero() {
           <div className="relative w-64 h-64 md:w-80 md:h-80">
             <div className="absolute inset-0 bg-accent/20 rounded-full blur-2xl"></div>
             <img
-              src="/profile01.jpg"
+              src="/Portfolio/profile01.jpg"
               alt="Profile"
               className="rounded-full w-full h-full object-cover relative z-10 border-4 border-accent/50"
             />
@@ -63,7 +63,7 @@ export default function Hero() {
             className="flex flex-col sm:flex-row gap-4"
           >
             <a
-              href="CesarMaldonadoCV - WebDeveloper.pdf"
+              href="/Portfolio/CesarMaldonadoCV - WebDeveloper.pdf"
               download
               className="inline-flex items-center justify-center px-6 py-3 bg-accent hover:bg-accent/80 text-white rounded-lg font-medium transition-colors gap-2"
             >
