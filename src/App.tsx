@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaEnvelope, FaBars, FaTimes } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaBehance,FaBars, FaTimes } from 'react-icons/fa';
 import { useState } from 'react';
 import VideoBackground from './components/VideoBackground';
 import Hero from './components/Hero';
@@ -78,14 +78,14 @@ function App() {
               </motion.div>
 
               <div className="flex space-x-4">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/cesaramg14" target="_blank" rel="noopener noreferrer">
                   <FaGithub className="w-6 h-6 text-gray-300 hover:text-accent transition-colors" />
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/cesarmaldonado91/" target="_blank" rel="noopener noreferrer">
                   <FaLinkedin className="w-6 h-6 text-gray-300 hover:text-accent transition-colors" />
                 </a>
-                <a href="mailto:your.email@example.com">
-                  <FaEnvelope className="w-6 h-6 text-gray-300 hover:text-accent transition-colors" />
+                <a href="https://www.behance.net/cesarmaldonado2" target="_blank" rel="noopener noreferrer">
+                  <FaBehance className="w-6 h-6 text-gray-300 hover:text-accent transition-colors" />
                 </a>
               </div>
             </div>
