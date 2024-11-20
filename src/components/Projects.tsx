@@ -27,7 +27,7 @@ const projects = [
     description: 'My first portfolio made with HTML and CSS',
     tech: ['HTML5', 'CSS3'],
     image: '/Portfolio/Portfolio01.PNG',
-    link: 'https://cesaramg14.github.io/Portfolio/',
+    link: 'https://cesaramg14.github.io/First-Portfolio/',
   },
   {
     title: 'Amarserca',
