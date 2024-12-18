@@ -19,7 +19,7 @@ export default function VideoBackground() {
                 playsInline
                 className="absolute min-w-full min-h-full object-cover opacity-60"
             >
-                <source src="/Portfolio/video_bg.mp4" type="video/mp4" />
+                <source src="/video_bg.mp4" type="video/mp4" />
             </video>
             <div className="absolute inset-0 bg-black/40"></div>
         </div>
