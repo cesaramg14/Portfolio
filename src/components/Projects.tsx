@@ -2,6 +2,13 @@ import { motion } from 'framer-motion';
 
 const projects = [
   {
+    title: 'Servicios Integrales de Tesis',
+    description: 'Website for a company that provides academic services',
+    tech: ['HTML', 'CSS', 'JavaScript'],
+    image: '/Portfolio/sidt01.webp',
+    link: 'https://www.behance.net/gallery/217172461/Pagina-Web-Empresarial?',
+  },
+  {
     title: 'Banki',
     description: 'Simulation Fintech Web App made with a team of 8 people',
     tech: ['React', 'Typescript', 'Bootstrap'],
