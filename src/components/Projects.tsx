@@ -2,11 +2,18 @@ import { motion } from 'framer-motion';
 
 const projects = [
   {
+    title: 'Plugins y Temas Premium',
+    description: 'Online store for premium plugins and themes for Wordpress',
+    tech: ['Wordpress', 'Woocommerce', 'PHP'],
+    image: '/Portfolio/plugins01.webp',
+    link: 'https://pluginsytemaspremium.com/',
+  },
+  {
     title: 'Servicios Integrales de Tesis',
     description: 'Website for a company that provides academic services',
     tech: ['HTML', 'CSS', 'JavaScript'],
     image: '/Portfolio/sidt01.webp',
-    link: 'https://www.behance.net/gallery/217172461/Pagina-Web-Empresarial?',
+    link: 'https://asesoriasidt.com/',
   },
   {
     title: 'Banki',
