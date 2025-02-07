@@ -2,11 +2,18 @@ import { motion } from 'framer-motion';
 
 const projects = [
   {
-    title: 'Plugins y Temas Premium',
+    title: 'ComiRest',
+    description: 'Restaurant Web App made with a team of 3 people',
+    tech: ['React', 'Typescript', 'Tailwind'],
+    image: '/Portfolio/Comirest01.webp',
+    link: 'https://s20-06-webapp.vercel.app',
+  },
+  {
+    title: 'Temas Pro',
     description: 'Online store for premium plugins and themes for Wordpress',
     tech: ['Wordpress', 'Woocommerce', 'PHP'],
     image: '/Portfolio/plugins01.webp',
-    link: 'https://pluginsytemaspremium.com/',
+    link: 'https://temas.pro/',
   },
   {
     title: 'Servicios Integrales de Tesis',
