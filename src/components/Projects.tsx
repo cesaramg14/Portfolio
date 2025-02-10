@@ -2,6 +2,13 @@ import { motion } from 'framer-motion';
 
 const projects = [
   {
+    title: 'Temas Pro',
+    description: 'A second page for the website pluginsytemaspremium.com',
+    tech: ['Wordpress', 'Woocommerce', 'PHP'],
+    image: '/Portfolio/Temaspro01.webp',
+    link: 'https://temas.pro/',
+  },
+  {
     title: 'ComiRest',
     description: 'Restaurant Web App made with a team of 3 people',
     tech: ['React', 'Typescript', 'Tailwind'],
@@ -9,11 +16,11 @@ const projects = [
     link: 'https://s20-06-webapp.vercel.app',
   },
   {
-    title: 'Temas Pro',
+    title: 'Plugins y Temas Premium',
     description: 'Online store for premium plugins and themes for Wordpress',
     tech: ['Wordpress', 'Woocommerce', 'PHP'],
     image: '/Portfolio/plugins01.webp',
-    link: 'https://temas.pro/',
+    link: 'https://pluginsytemaspremium.com/',
   },
   {
     title: 'Servicios Integrales de Tesis',
