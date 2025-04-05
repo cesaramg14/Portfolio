@@ -1,6 +1,21 @@
 import { motion } from 'framer-motion';
+import '../styles/projects.css';
 
 const projects = [
+  {
+    title: 'XportBridge',
+    description: 'XportBridge is a website that offers plastic solutions for the agricultural and construction sectors',
+    tech: ['Wordpress', 'Elementor', 'PHP'],
+    image: '/Portfolio/Xportbridge01.webp',
+    link: 'https://xport-bridge.com/',
+  },
+  {
+    title: 'Canguros8Pets',
+    description: 'Developed Booking system that allows clients to get services for their pets',
+    tech: ['Wordpress', 'Woocommerce', 'PHP'],
+    image: '/Portfolio/Canguros01.webp',
+    link: 'https://www.behance.net/gallery/222984565/Canguros8Pets',
+  },
   {
     title: 'Temas Pro',
     description: 'A second page for the website pluginsytemaspremium.com',
@@ -98,7 +113,7 @@ export default function Projects() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.2 }}
-              className="bg-secondary/80 backdrop-blur-sm rounded-lg overflow-hidden hover:transform hover:scale-105 transition-transform border border-accent"
+              className="bg-secondary/80 backdrop-blur-sm rounded-lg overflow-hidden border border-accent project-card"
             >
               <a href={project.link} target="_blank" rel="noopener noreferrer">
                 <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />

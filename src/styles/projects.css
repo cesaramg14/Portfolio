@@ -1,0 +1,9 @@
+.project-card {
+  transition: all 0.2s ease-in-out;
+  will-change: transform;
+  transform-origin: center;
+}
+
+.project-card:hover {
+  transform: scale(1.05) !important;
+} 
