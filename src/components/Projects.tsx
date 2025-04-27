@@ -3,6 +3,13 @@ import '../styles/projects.css';
 
 const projects = [
   {
+    title: 'Dorado Dental',
+    description: 'Dorado Dental is a website that presents their dental practice in Rome, outlining their range of services from general dentistry to specialized treatments.',
+    tech: ['Wordpress', 'Elementor', 'PHP'],
+    image: '/Portfolio/DoradoDental01.webp',
+    link: 'https://doradodental.it/',
+  },
+  {
     title: 'XportBridge',
     description: 'XportBridge is a website that offers plastic solutions for the agricultural and construction sectors',
     tech: ['Wordpress', 'Elementor', 'PHP'],
