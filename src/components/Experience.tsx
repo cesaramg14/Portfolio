@@ -4,20 +4,18 @@ const experiences = [
   {
     company: 'Freelance',
     position: 'Full Stack Web Developer',
-    period: '2021 - Present',
-    description1: 'Responsive Web Design: Creating websites that adapt seamlessly to various devices and screen sizes.',
-    description2: 'User Experience (UX) Design: Designing intuitive and engaging user interfaces.',
-    description3: 'Search Engine Optimization (SEO): Implementing SEO best practices to improve website visibility.',
-    description4: 'Web Performance Optimization: Ensuring fast loading times and optimal performance.',
+    period: '2021 - Now',
+    description1: 'Website development from scratch using WordPress and Elementor. Theme and plugin customization, creating maintainable and scalable PHP, CSS, and JavaScript code. Online store development using WooCommerce, including payment system configuration and product creation.',
+    description2: 'Developed static pages designed in Figma using HTML, JavaScript, Bootstrap, Tailwind, and React for multiple clients and companies. Utilized best practices for each website to ensure accurate display across multiple devices and screens, with search engine-optimized content and high performance.',
+    description3: 'Development of complex web applications such as: a login page for a Mikrotik Hotspot using Python Flask, which manages Wi-Fi access for thousands of customers who visits the shopping center. Adjustment and creation of new features for a WhatsApp chatbot using PHP, which serves a database of more than 2,000 customers. Development of new features for a pet service reservation system located in Spain, including: notification and service management functions via email, pet data modification, and a return system, among others.',
   },
   {
     company: 'Agencia Maritima de Servicios, C.A',
     position: 'Web Developer',
     period: '2018 - 2020',
-    description1: 'Creation, design and management of Company’s website.',
+    description1: 'Creation, design and management of Company’s website. Responsive Web Design.',
     description2: 'Hosting and domain management.',
-    description3: 'Wordpress installation, plugin management and server configuration.',
-    description4: 'Responsive Web Design.',
+    description3: 'Wordpress installation, plugin management and server configuration.'
   },
 ];
 
@@ -48,7 +46,6 @@ export default function Experience() {
                 <li className="text-gray-200 list-disc list-inside">{exp.description1}</li>
                 <li className="text-gray-200 list-disc list-inside">{exp.description2}</li>
                 <li className="text-gray-200 list-disc list-inside">{exp.description3}</li>
-                <li className="text-gray-200 list-disc list-inside">{exp.description4}</li>
               </ul>
             </motion.div>
           ))}
