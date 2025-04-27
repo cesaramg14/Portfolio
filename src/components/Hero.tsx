@@ -63,7 +63,7 @@ export default function Hero() {
             className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start"
           >
             <a
-              href="/Portfolio/CesarMaldonadoCV - WebDeveloper.pdf"
+              href="/Portfolio/CV - Cesar Maldonado(eng).pdf"
               download
               className="inline-flex items-center justify-center px-4 sm:px-6 py-2 sm:py-3 bg-accent hover:bg-accent/80 text-white rounded-lg font-medium transition-colors gap-2 text-sm sm:text-base"
             >
