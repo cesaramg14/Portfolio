@@ -155,7 +155,7 @@ export default function Projects() {
                         onClick={(e) => handleTestimonialClick(e, project.testimonial)}
                         className="bg-accent/20 text-accent px-3 py-1 rounded-full text-sm hover:bg-accent/30 transition-colors"
                       >
-                        Reviews
+                        Review
                       </button>
                     )}
                   </div>
